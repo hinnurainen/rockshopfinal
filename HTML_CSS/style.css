@@ -1,10 +1,14 @@
 body {
-  background-color: aqua;
+  background-color: black;
+}
+
+h1, h2, h3 {
+  color: white
 }
 
 #my_id {
-  color: darkblue;
-  text align: center;
+  color: white;
+  text align: left: ;
 }
 
 .my_class {
@@ -12,6 +16,16 @@ body {
   font-size: 20px;
 }
 
+/* unvisited link */
+a:link {
+  color: pink;
+}
+
+/* visited link */
+a:visited {
+  color: coral;
+}
+
 background-image: url('https://png.pngtree.com/png-clipart/20190419/ourmid/pngtree-unicorn-image-png-image_959407.jpg')
 
-/* HERE'S MY OWN NOTES*/
+
