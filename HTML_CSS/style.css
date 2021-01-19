@@ -1,0 +1,17 @@
+body {
+  background-color: aqua;
+}
+
+#my_id {
+  color: darkblue;
+  text align: center;
+}
+
+.my_class {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+background-image: url('https://png.pngtree.com/png-clipart/20190419/ourmid/pngtree-unicorn-image-png-image_959407.jpg')
+
+/* HERE'S MY OWN NOTES*/
