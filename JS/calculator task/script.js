@@ -1,4 +1,4 @@
-let a = prompt("enter first number");
-let b = prompt("enter second number");
+let a = prompt("Enter the first number.");
+let b = prompt("Enter the second number.");
 
-alert("Sum for those numbers is " + (Number(a)+Number(b)))
+alert("The sum for those numbers is " + (Number(a)+Number(b)))
