@@ -1,6 +1,6 @@
-let age = prompt("how old are you?");
-if (age <= 18) {
-    alert("you are too young")
+let age = prompt("How old are you?");
+if (age < 18) {
+    alert("You are too young, sorry.")
 } else {
-    alert("welcome")
+    alert("Welcome!")
 }
