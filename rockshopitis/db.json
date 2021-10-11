@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "mimage": "sulthan-auliya-E9ex3BxWqG0-unsplash.jpg",
+      "title": "Mini Mää",
+      "price": "1000",
+      "description": "Maybe baby?"
+    },
+    {
+      "id": 2,
+      "mimage": "sam-carter-GHOiyov2TSQ-unsplash.jpg",
+      "title": "Mother Mää",
+      "price": "200",
+      "description": "The mother of wisdom."
+    },
+    {
+      "id": 3,
+      "mimage": "migle-siauciulyte-sSoreg4Lfyw-unsplash.jpg",
+      "title": "Father Mää",
+      "price": "30",
+      "description": "The biggest Mää ever."
+    },
+    {
+      "id": 4,
+      "mimage": "jose-francisco-morales-Ty8nxayxYkk-unsplash.jpg",
+      "title": "Black Määgic",
+      "price": "2",
+      "description": "The black sheep of the family."
+    },
+    {
+      "id": 5,
+      "mimage": "ZP2MOxu-shaun-the-sheep-wallpaper.jpg",
+      "title": "Late Lammas",
+      "price": "60000",
+      "description": "You know, it's the one and only Shaun the Sheep, Shaun the Sheep..."
+    }
+  ]
+}

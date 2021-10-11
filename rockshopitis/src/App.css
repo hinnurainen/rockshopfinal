@@ -1,38 +1,147 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: #437fc7;
+}
+
+footer {
+  color: #b9732f;
   text-align: center;
+  font-size: x-small;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin-left: 20px;
+  background-color: #edf6ff;
+  color: #b9732f;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+a {
+  color: #437fc7;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #6daffe;
+}
+
+button {
+  background-color: #437fc7;
+  padding: 5px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+h1,
+h2 {
+  font-family: "Amatic SC", cursive;
+  margin-left: 20px;
+}
+
+h2 {
+  color: #437fc7;
+}
+
+h3 {
+  font-family: "Amatic SC", cursive;
+}
+
+.card-body {
+  background-color: #edf6ff;
+}
+
+.card-body button {
+  background-color: #437fc7;
+  border-color: #437fc7;
+  color: #fff;
+}
+
+.card-body button:hover {
+  background-color: #b9732f;
+  color: #fff;
+}
+
+.card-body button:focus {
+  background-color: #b9732f;
+  color: #fff;
+}
+
+.card-title {
+  font-family: "Amatic SC", cursive;
+  color: #437fc7;
+}
+
+.price {
+  font-weight: bold;
+  color: #437fc7;
+}
+
+a.card-link {
+  color: #437fc7;
+}
+
+.jumbotron {
+  background-image: url("https://source.unsplash.com/UNApmM-efz4/1600x900");
+  background-size: cover;
+  height: 100vh;
+}
+
+.bannerheader,
+.bannertext {
+  color: #fff;
+}
+
+.bannertext {
+  margin-left: 20px;
+}
+
+.bannerbutton.btn.btn-primary {
+  background-color: transparent;
+  border-color: #b9732f;
+  margin-left: 20px;
+}
+
+.bannerbutton.btn.btn-primary:visited {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.singletext {
+  color: #437fc7;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.shoppingcard {
+  margin-left: 20px;
+  color: #437fc7;
+}
+
+.listedproducts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  align-items: left;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.singlepagecard {
+  margin-left: 20px;
 }
